@@ -70,6 +70,12 @@ namespace product_management.PL
             FRM_CUSTOMER frm = new FRM_CUSTOMER();
             frm.ShowDialog();
         }
+        
+         private void button6_Click(object sender, EventArgs e)
+        {
+            FRM_BACKUP frm = new FRM_BACKUP();
+            frm.ShowDialog();
+        }
 
         private void button7_Click(object sender, EventArgs e)
         {
