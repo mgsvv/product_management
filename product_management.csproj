@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79762C9E-DFA6-4B62-AE86-A8D0C60C7ADF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>product_management</RootNamespace>
+    <AssemblyName>product_management</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\CLS_CUSTOMERS.cs" />
+    <Compile Include="BL\CLS_LOGIN.cs" />
+    <Compile Include="BL\CLS_ORDERS.cs" />
+    <Compile Include="BL\CLS_PRODUCT.cs" />
+    <Compile Include="DAL\DataAccessLayer.cs" />
+    <Compile Include="PL\ADD_PRODUCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\ADD_PRODUCT.Designer.cs">
+      <DependentUpon>ADD_PRODUCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_USERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_USERS.Designer.cs">
+      <DependentUpon>FRM_ADD_USERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_cust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_cust.Designer.cs">
+      <DependentUpon>frm_cust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_CUSTOMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_CUSTOMER.Designer.cs">
+      <DependentUpon>FRM_CUSTOMER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_CATEGORIES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_CATEGORIES.Designer.cs">
+      <DependentUpon>FRM_CATEGORIES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_CUST_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_CUST_LIST.Designer.cs">
+      <DependentUpon>FRM_CUST_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_inv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_inv.Designer.cs">
+      <DependentUpon>frm_inv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_LOGIN.Designer.cs">
+      <DependentUpon>FRM_LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_MAIN.Designer.cs">
+      <DependentUpon>FRM_MAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_main2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_main2.Designer.cs">
+      <DependentUpon>frm_main2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ORDERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ORDERS.Designer.cs">
+      <DependentUpon>FRM_ORDERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ORDER_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ORDER_LIST.Designer.cs">
+      <DependentUpon>FRM_ORDER_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_PRODUCTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_PRODUCTS.Designer.cs">
+      <DependentUpon>FRM_PRODUCTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_PRODUCT_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_PRODUCT_LIST.Designer.cs">
+      <DependentUpon>FRM_PRODUCT_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_reports.Designer.cs">
+      <DependentUpon>frm_reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_set.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_set.Designer.cs">
+      <DependentUpon>frm_set.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_user.Designer.cs">
+      <DependentUpon>frm_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_USERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_USERS.Designer.cs">
+      <DependentUpon>FRM_USERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\ADD_PRODUCT.resx">
+      <DependentUpon>ADD_PRODUCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ADD_USERS.resx">
+      <DependentUpon>FRM_ADD_USERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_cust.resx">
+      <DependentUpon>frm_cust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_CUSTOMER.resx">
+      <DependentUpon>FRM_CUSTOMER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_CATEGORIES.resx">
+      <DependentUpon>FRM_CATEGORIES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_CUST_LIST.resx">
+      <DependentUpon>FRM_CUST_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_inv.resx">
+      <DependentUpon>frm_inv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_LOGIN.resx">
+      <DependentUpon>FRM_LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_MAIN.resx">
+      <DependentUpon>FRM_MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_main2.resx">
+      <DependentUpon>frm_main2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ORDERS.resx">
+      <DependentUpon>FRM_ORDERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ORDER_LIST.resx">
+      <DependentUpon>FRM_ORDER_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_PRODUCTS.resx">
+      <DependentUpon>FRM_PRODUCTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_PRODUCT_LIST.resx">
+      <DependentUpon>FRM_PRODUCT_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_reports.resx">
+      <DependentUpon>frm_reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_set.resx">
+      <DependentUpon>frm_set.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_user.resx">
+      <DependentUpon>frm_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_USERS.resx">
+      <DependentUpon>FRM_USERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emblemok_103757.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_512px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast_forward_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\end_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skip_to_start_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rewind_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_copy_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user_group_man_man_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signin_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poster_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stack_of_paper_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microsoft_excel_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1321938.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\563541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3126649.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3239045.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13219381.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\737763.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,54 @@
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.csproj.AssemblyReference.cache
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.Properties.Resources.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.csproj.GenerateResource.cache
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.csproj.CoreCompileInputs.cache
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\bin\Debug\product_management.exe.config
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\bin\Debug\product_management.exe
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\bin\Debug\product_management.pdb
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.exe
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.pdb
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_LOGIN.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_MAIN.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.ADD_PRODUCT.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_PRODUCTS.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_CATEGORIES.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_CUSTOMER.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_ORDERS.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_CUST_LIST.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_PRODUCT_LIST.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.frm_main2.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.frm_cust.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.frm_inv.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.frm_set.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.frm_user.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_ORDER_LIST.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.frm_reports.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_ADD_USERS.resources
+C:\Users\GUNS OF THE PATRIOTS\source\repos\product_management\product_management\obj\Debug\product_management.PL.FRM_USERS.resources
+E:\product_management\product_management\bin\Debug\product_management.exe.config
+E:\product_management\product_management\bin\Debug\product_management.exe
+E:\product_management\product_management\bin\Debug\product_management.pdb
+E:\product_management\product_management\obj\Debug\product_management.csproj.AssemblyReference.cache
+E:\product_management\product_management\obj\Debug\product_management.PL.ADD_PRODUCT.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_ADD_USERS.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.frm_cust.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_CUSTOMER.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_CATEGORIES.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_CUST_LIST.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.frm_inv.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_LOGIN.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_MAIN.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.frm_main2.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_ORDERS.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_ORDER_LIST.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_PRODUCTS.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_PRODUCT_LIST.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.frm_reports.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.frm_set.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.frm_user.resources
+E:\product_management\product_management\obj\Debug\product_management.PL.FRM_USERS.resources
+E:\product_management\product_management\obj\Debug\product_management.Properties.Resources.resources
+E:\product_management\product_management\obj\Debug\product_management.csproj.GenerateResource.cache
+E:\product_management\product_management\obj\Debug\product_management.csproj.CoreCompileInputs.cache
+E:\product_management\product_management\obj\Debug\product_management.exe
+E:\product_management\product_management\obj\Debug\product_management.pdb
