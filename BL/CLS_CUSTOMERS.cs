@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace product_management.BL
+namespace product_management.BLbjvhgfhgfhgcgfcftcxrtfctrcrt
 {
     class CLS_CUSTOMERS
     {
